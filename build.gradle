@@ -1,1 +1,9 @@
 apply plugin:'base'
+dependencies{
+testImplementation 'junit:junit:4.13'
+}
+
+test{
+useJunit()
+maxHeapSize='1G'
+}
