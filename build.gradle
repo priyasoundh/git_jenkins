@@ -1,9 +1,1 @@
-task hello{
-doLast{
-println "priya"
-}
-}
-
-hello.onlyIf{
-!project.hasProperty('skip_hello')
-}
+apply plugin:'base'
